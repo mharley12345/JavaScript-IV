@@ -50,7 +50,7 @@ class CharacterStats extends GameObject{
        		super(stats)
   		this.healthPoints=stats.healthPoints
 	}
-	 takeDamage=function(){
+	 takeDamage(){
      return `${this.name} took damage.`
   }
 
