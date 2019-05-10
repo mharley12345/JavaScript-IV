@@ -55,12 +55,24 @@ class Student extends Instructor{
      }
 }
 
+          class ProjectManagers extends Instructor {
+             constructor(props){       
+             super(props)
+               this.gradClassName=props.gradClassName
+               this.favInstructor=props.favInstructpt
+            }
+       standUp(slack){
+           return `${this.channel} standy times!`
 
+           }
+       debugsCode(){
+           Object.student.this.subject=subject.student.Object;
+           return `${this.name}debugs ${student.name}'s code on ${this.subject}`
+        }
 
+           
+       }
 
-
-
-
-
+        
 
 
