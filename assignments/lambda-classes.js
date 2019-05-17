@@ -49,7 +49,7 @@ class Instructor extends Person{
         return (`Today we are learining about ${subject}`)
     }                         
     grade(student,subject){   
-        return (`${student} receives a perfect score on ${subject}`)
+        return (`${student.name} receives a perfect score on ${subject}`)
                               
     }                         
 }                             
