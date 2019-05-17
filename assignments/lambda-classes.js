@@ -13,7 +13,7 @@ class Person {
         this.age-attributes.age;           
         this.location=attributes.location;
     }                                    
-    speak(name,location) {               
+    speak() {               
          return (`Hello my name is ${this.name}, I am from ${this.location}`)
                                          
     }                                    
