@@ -14,7 +14,7 @@ class Person {
         this.location=attributes.location;
     }                                    
     speak(name,location) {               
-         return (`Hello my name is ${name}, I am from ${location}`)
+         return (`Hello my name is ${this.name}, I am from ${this.location}`)
                                          
     }                                    
 }                                        
