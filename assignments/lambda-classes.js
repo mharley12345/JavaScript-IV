@@ -116,7 +116,7 @@ class ProjectManager extends Instructor {
     constructor(attributes){                                   
         super(attributes);                                 
     this.gradClassName=attributes.gradClassName;           
-    this.favInstrustor=attributes.Instructor;              
+    this.favInstructor=attributes.favInstructor;              
     }                                                      
     standUp(channel){                                     
         return (`${this.name} annouces to ${channel},@channel standy times!`)
